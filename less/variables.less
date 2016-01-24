@@ -1,0 +1,63 @@
+// --- Colors
+@black:     #0F1010;
+@green:     #67c60b;
+@blue:      #389bff;
+@white:     #fff;
+
+@off-gray:  #8890a4;
+
+@link-color: @blue;
+@hover-color: @green;
+
+@active-bg: #f5f8fc;
+@active-color: #52a6e1;
+@anim: cubic-bezier(0.215, 0.610, 0.355, 1.00);
+
+@error-bg: #feeeee;
+@error-color: darken(@error-bg, 35);
+
+// --- Typography 
+
+@font-size: 1rem;
+
+@sans-serif:  Helvetica, Arial, sans-serif;
+@serif:       Georgia, "Times New Roman", Times, serif;
+
+@form-font-size:    1rem;
+@form-label-font-size: 0.95rem;
+
+// --- Google Fonts
+@montserrat: "Montserrat", @sans-serif;
+@lato: "Lato", @sans-serif;
+
+// --- Headings
+@form-heading:            ceil((@font-size * 1.25)); // 18px
+@form-heading-subline:    ceil((@font-size * 0.85)); // ~16px
+
+// --- Borders
+@border-radius: 5px;
+@border-color: lighten(@black, 80%);
+@border-width: 1px;
+
+.border {
+    border: @border-width @border-color solid;
+    border-radius: @border-radius;
+}
+
+
+// ------- CONFIGURE
+@background:    lighten(@black, 90%);
+
+// --- Form fields
+@form-text-color: lighten(@black, 70%);
+@placeholder-text-color: @form-text-color;
+
+@padding-form:  10px 17px;
+@margin-form: 15px 0 30px 0; 
+
+@checkbox-size: 15px;
+
+.form-spacing {
+    padding: @padding-form;
+    margin: @margin-form;
+}

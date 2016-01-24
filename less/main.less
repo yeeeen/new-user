@@ -1,0 +1,108 @@
+/* Main */
+html,
+body {
+  height: 100%;
+}
+
+body { 
+    background: @background;
+    font-family: @lato;
+}
+
+A {
+    color: @link-color;
+    text-decoration: none;
+    
+    .transition;
+}
+
+A:hover {
+    color: @hover-color;
+}
+
+.form-header {
+    text-align: center;
+    margin: 40px 125px 40px;
+}
+
+.form-header h1, .form-header h2 {
+    padding: 0;
+}
+
+.form-header .logo {
+    width: 75px;
+    height: 110px;
+    display: block;
+    background: url('../img/logo-2x.png');
+    background: url('../img/logo.svg'), linear-gradient(transparent, transparent);
+    background-size: cover;
+    margin: auto;
+}
+
+
+.form-header h1 {
+    font-size: .98rem;
+    font-family: @montserrat;
+    font-weight: normal;
+    margin: 20px 0 0 0;
+}
+
+.form-header h2 {
+    font-size: .98rem;
+    font-family: @lato;
+    font-weight: 300;
+    margin: 0;
+    color: @off-gray; 
+}
+
+.form-content {
+    border-top: @border-color @border-width solid;
+    padding: 40px 125px;
+}
+
+.form-container {
+    background: @white; 
+    //padding: 40px 125px 60px;
+    width: 725px;
+    
+    .border;
+}
+
+.footer-signin {
+    display: block;
+    text-align: center;
+    color: @off-gray;
+    padding: 25px 0 0 0;
+    font-weight: 300;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/* extra transition */
+.transition {
+    transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+}
+
+
+

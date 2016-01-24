@@ -1,0 +1,47 @@
+/* Floating Labels for Parsely */
+
+.form-content {
+    input[type] {
+        position: relative;
+        z-index: 1;
+        transition: background 0.3s @anim, border-color 0.3s @anim;
+        &:focus {
+            background: @active-bg;
+        }
+    }
+    label {
+        transition: transform 0.3s @anim, opacity 0.3s @anim;
+    }
+    
+}
+
+.form-field {
+    position: relative;
+}
+
+.parsley-errors-list, .parsley-errors-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.parsley-errors-list {
+    float: right;
+    padding-top: 5px;
+}
+
+#parsley-id-multiple-termsAgreement { //override
+    float: left;
+}
+
+.error {
+    font-family: @lato;
+    opacity: 0;
+    font-weight: bold;
+    color: @error-color;
+    font-size: 10px;
+    text-transform: uppercase;
+    z-index: 3;
+    pointer-events: none;
+}
+

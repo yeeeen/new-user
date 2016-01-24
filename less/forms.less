@@ -1,0 +1,100 @@
+/* --- Text field */
+
+label {
+    font-size: @form-label-font-size;
+    font-family: @montserrat;
+}
+
+input {
+    font-size: @form-font-size;
+    font-family: @lato;
+    font-weight: 300;
+    color: @off-gray;
+    letter-spacing: .05em;
+    .border;
+    .form-spacing;
+}
+
+input:focus {
+    outline: none;
+}
+
+.password {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.password-confirm {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.fullname-field,
+.country-field {
+    padding-right: 25px;
+}
+
+
+/* checkbox */
+
+.confirm-field {
+    padding: 15px 0;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    background: @white;
+    height: @checkbox-size;
+    width: @checkbox-size;
+    display: inline-block;
+    .border;
+}
+
+input[type=checkbox]:checked + label {
+    background: @green;
+    height: @checkbox-size;
+    width: @checkbox-size;
+    display: inline-block;
+    padding: 0;
+}
+
+.checkbox-label {
+    color: @off-gray;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+/* placeholder */
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: @placeholder-text-color;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: @placeholder-text-color;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: @placeholder-text-color;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: @placeholder-text-color;
+}
+
+:placeholder-shown {
+    /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+    color: @placeholder-text-color;
+}
