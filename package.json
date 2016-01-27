@@ -1,0 +1,42 @@
+{
+  "name": "newuser",
+  "version": "1.0.0",
+  "description": "pixel2html",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "basscss": "^7.1.0",
+    "gulp": "^3.9.0",
+    "gulp-csscomb": "^3.0.6",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.5",
+    "gulp-watch-less": "^1.0.1",
+    "less": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeeeen/new-user.git"
+  },
+  "keywords": [
+    "design",
+    "html"
+  ],
+  "author": "Yen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yeeeen/new-user/issues"
+  },
+  "homepage": "https://github.com/yeeeen/new-user#readme"
+}
