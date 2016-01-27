@@ -7,7 +7,6 @@
     "test": "test"
   },
   "dependencies": {
-    "bootstrap": "^3.3.6",
     "basscss": "^7.1.0",
     "gulp": "^3.9.0",
     "gulp-csscomb": "^3.0.6",
